@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Slider</title>
+</head>
+<body>
+<main>
+<section class="Slider">
+    <div class="container"> <!--Блок-контейнер-->
+        <div class="slider__titles">
+        </div>
+        <div class="wrap">
+            <div class="projects-content">
+                <h2 class="h2">COMPLETED <br>PROJECTS</h2>
+                <p class="text-projects_1">Only a small part of the work performed by our company is presented
+                    on the site. For 14 years on in the construction
+                    market we have made happy more than 1000 families
+                </p>
+                <!--Таблица 2х2 параметры проектов-->
+                <dl class="table_2x2">
+                    <div>
+                        <dt class="project-parameter city">CITY:</dt>
+                        <dd class="project-value" id="city-name"></dd>
+                    </div>
+                    <div>
+                        <dt class="project-parameter area">APARTMENT AREA:</dt>
+                        <dd class="project-value" id="square-value"></dd>
+                    </div>
+                    <div>
+                        <dt class="project-parameter timing">REPAIR TIME:</dt>
+                        <dd class="project-value" id="timing-value"></dd>
+                    </div>
+                    <div>
+                        <dt class="project-parameter cost">REPAIR COSTS:</dt>
+                        <dd class="project-value" id="cost-value"></dd>
+                    </div>
+                </dl>
+                <!--Слайдера навигация (стрелочки и точки)-->
+                <div class ="slider__nav">
+                    <button class = "btn_arrow left" aria-label="go_back">
+                        <img src="icons/Group Arrow Left.svg" alt="Left arrow to previous project">
+                    </button>
+                    <div class="slider__dots">
+                    </div>
+                    <button class = "btn_arrow right" aria-label="go_foreward">
+                        <img src="icons/Group Arrow Right.svg" alt="Right arrow to next project">
+                    </button>
+                </div>
+            </div>
+            <div class="slider__images">
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+    <script src="sliderscript.js"></script>
+</body>
+</html>
